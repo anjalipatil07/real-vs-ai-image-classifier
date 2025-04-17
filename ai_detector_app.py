@@ -8,9 +8,9 @@ import os
 from io import BytesIO
 
 # -------------------- CONFIG --------------------
-MODEL_URL = "https://huggingface.co/anjalipatil07/resnet18-ai-detector.pth"
+MODEL_URL = "https://huggingface.co/username/resnet18-ai-detector.pth"
 MODEL_FILENAME = "resnet18-ai-detector.pth"
-HF_TOKEN = "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"  # 👈 Replace with your token
+HF_TOKEN = "ababaababaababb"  # 👈 Replace with your token
 LABELS = ["AI-Generated", "Real Image"]
 
 st.set_page_config(page_title="AI vs Real Image Detector", layout="centered")
